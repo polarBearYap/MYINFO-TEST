@@ -1,1 +1,25 @@
-{"keys":[{"kty":"EC","use":"sig","crv":"P-256","kid":"sig-2023-10-25T22:22:23Z","x":"QzyFyatPtmvM__hSXx5YF0T4uAWkf4YAsflzDIBHQl8","y":"LfwpLTpynJn6NErJc_p8TmrW8QazUcK4DKtf4vn7ebI","alg":"ES256"},{"kty":"EC","use":"enc","crv":"P-256","kid":"enc-2023-10-25T22:22:23Z","x":"iBMgcxrfto_d7QMgqb4ZjDLTQ2_qn0yx9pH3wNSWj40","y":"eSNmqRkmyYOC5Y0LrOhYBxBgpttJr2BD5xK_kMsv9b0","alg":"ECDH-ES+A256KW"}]}
+{
+  "keys": [
+    {
+      "alg": "ES256",
+      "crv": "P-256",
+      "key_ops": [
+        "verify"
+      ],
+      "kty": "EC",
+      "x": "UDi507zbMtX-H2HO9FcB50Ee9rcgIAurl2ffVdMXXSU",
+      "y": "8PSfWyNggfEXPH8_VvR-xfDKMLyXRQI8vR34UKnWjBU",
+      "kid": "signpass-bkkForexMoneyChanger-2026-test-sign",
+      "use": "sig"
+    },
+    {
+      "crv": "P-256",
+      "kty": "EC",
+      "x": "AgvJovR6szROR6fH1KsQYgBdeA2svZC2dP-ioYPQQOs",
+      "y": "NsmA25U6lt22E9o5ayu0AROa7oc1iKpE4qfOZvt6sjU",
+      "kid": "signpass-bkkForexMoneyChanger-2026-test-enc",
+      "alg": "ECDH-ES+A256KW",
+      "use": "enc"
+    }
+  ]
+}
